@@ -20,7 +20,6 @@ router
     .get(authenticateUser,getAllProducts)
     .post([authenticateUser,authorizePermission('admin')],createProduct);
 
-router.route('/deleteall').delete(deleteAllProducts);
 
 router
     .route('/upload')

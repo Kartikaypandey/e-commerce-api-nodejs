@@ -59,11 +59,6 @@ const logout = async (req,res) => {
     res.status(StatusCodes.OK).json({msg: 'user logged out'})
 }
 
-const deleteAll = async (req,res) => {
-    const users = await User.deleteMany({});
-    return res.send('Deleted all users');
-}
-
 
  
 

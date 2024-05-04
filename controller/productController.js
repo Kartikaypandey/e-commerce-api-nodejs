@@ -60,10 +60,6 @@ const uploadImage = async (req,res) => {
     res.status(StatusCodes.OK).json({image:`uploads/${image.name}`});
 };
 
-const deleteAllProducts  = async (req,res) => {
-    await Product.deleteMany({});
-    res.status(StatusCodes.OK).json({msg: 'All products deleted'});
-}
 
 module.exports = {
     getAllProducts,
