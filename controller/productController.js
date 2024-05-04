@@ -68,5 +68,5 @@ module.exports = {
     updateProduct,
     deleteProduct,
     uploadImage,
-    deleteAllProducts,
+    
 }

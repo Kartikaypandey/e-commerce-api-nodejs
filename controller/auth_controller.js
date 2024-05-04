@@ -62,4 +62,4 @@ const logout = async (req,res) => {
 
  
 
-module.exports = {login,logout,register,deleteAll};
+module.exports = {login,logout,register};

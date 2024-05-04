@@ -10,7 +10,6 @@ const {
     updateProduct,
     deleteProduct,
     uploadImage,
-    deleteAllProducts,
 } = require('../controller/productController');
 
 const {getAllReviewsAssociatedWithProduct} = require('../controller/reviewsController');
